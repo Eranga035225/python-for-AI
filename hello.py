@@ -1,4 +1,13 @@
-import requests 
+name = 'Era' # this is a variable
+age = 25
 
-response = requests.get("https://api.github.com")
-print(response.status_code)
+"""
+This is a multi line comment
+
+
+
+"""
+
+
+
+name
