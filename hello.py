@@ -1,8 +1,16 @@
-is_logged_in = True
+age = 25
 
-age = 18
+has_license = True
 
 
-can_vote  = age>=18
+can_drive = age >= 18 and has_license
+print(can_drive)
 
-can_vote
+
+age = 25
+
+has_license = True
+
+
+can_drive = age >= 18 or  has_license
+print(can_drive)
